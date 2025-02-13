@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.required-custom-input {
+    @apply mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-red-500 invalid:text-red-600 focus:invalid:border-red-500 focus:invalid:ring-red-500;
+}
+
+.text-new-2xl {
+    @apply lg:text-2xl text-lg;
+}
+
+.text-new-xl {
+    @apply lg:text-xl text-base;
+}
+
+.text-new-lg {
+    @apply lg:text-lg text-sm;
+}
+
+.text-new-base {
+    @apply lg:text-base text-xs;
+}
+
+.text-new-sm {
+    @apply lg:text-sm text-[10px];
+}
+
+.text-new-xs {
+    @apply lg:text-sm text-[8px];
+}
